@@ -1,0 +1,10 @@
+{
+  "name": "permissionDemo",
+  "version": "0.0.0",
+  "description": "Demo for javascript israel meetup",
+  "main": "index.js",
+  "author": "Ran Wahle",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {}
+}
