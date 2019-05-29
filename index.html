@@ -4,19 +4,39 @@
     <meta charset="UTF-8">
     <title>What may I do?</title>
     <script src="index.js"></script>
+    <style>
+       div {
+           font-size: 2em;
+       }
+       input {
+           font-size: 1em;
+       }
+        button {
+            color: white;
+            font-size: 1em;
+            background-color: #5474ff;
+            border-radius: 5px;
+        }
+        a {
+            font-size: 2em;
+        }
+    </style>
 </head>
 <body>
 
+<div>
     <label>Permission Name
-            <input type="text" name="permissionName" id="txtPermissionName">
+        <input type="text" name="permissionName" id="txtPermissionName">
 
     </label>
+</div>
+<div>
     <button id="btnRequestPermission">Request</button>
     <button id="btnQueryPermission">Query</button>
     <button id="btnRevokePermission">Revoke</button>
+</div>
+<div id="status"></div>
 
-    <div id="status"></div>
-
-<a href="./accelerometer.html">Try Accelerometer</a>
+<!--<a href="./accelerometer.html">Try Accelerometer</a>-->
 </body>
 </html>
